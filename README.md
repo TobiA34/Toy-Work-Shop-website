@@ -1,5 +1,10 @@
 # Toy-Work-Shop-website
 
-Need to have XAMPP version 3.4.2 to run this project\n
-Start up XAMPP\n
-You need to run the create data to create the database.,
+SETUP:
+...
+
+// XAMPP 3.4.2 is needed to run this project
+//start_up XAMPP by clicking start.
+//Run create_data.php to create the data
+// Then run about.php to go to the home screen
+
