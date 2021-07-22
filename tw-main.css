@@ -1,0 +1,104 @@
+/* colour scheme for Toy Workshop
+    blue: #00cccc
+    purple: #993399
+    white: #ffffff
+    green: #99cc33
+    pink: #ff99cc
+*/
+
+html {
+    background: #ffffff;
+}
+
+body {
+    color: #993399;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.2;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 4em;
+    text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #00cccc;
+    font-weight: 600;
+}
+
+
+a {
+    color: #99cc33;
+}
+
+
+.logo{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.loginDialog {
+    margin:auto;
+    margin-top: 15px;
+    text-align: center;
+    border-style: double;
+    border-color: #99cc33;
+    border-width: 5px;
+    padding: 16px 16px;
+    max-width: 500px;
+    max-height: 400px;
+}
+
+
+.generalInfo {
+    margin:auto;
+    margin-top: 15px;
+    text-align: center;
+    border-style: double;
+    border-color: #99cc33;
+    border-width: 5px;
+    padding: 16px 16px;
+    max-width: 700px;
+}
+
+/* The below is heavily based upon content from W3C Schools...*/
+/* The navigation bar */
+.navbar {
+    overflow: fixed;
+    background-color: #993399;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 800px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px 32px;
+    text-decoration: none;
+}
+
+/* table formatting */
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px #99cc33;
+
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ff99cc;
+    color: white;
+}
+
+/* Main content */
+.main {
+    margin-top: 10px; /* Add a top margin to avoid content overlay */
+}
